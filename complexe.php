@@ -60,14 +60,20 @@
 		}
 		$resInverse = "<span class= 'Inverse'> <sup>1</sup>&frasl;<sub>Z</sub> = <sup>$conjugueNb1</sup>/<sub>". round(pow($mod, 2), 0) ."</sub> $signeConjugue <sup>$newNb2Bis.i</sup>/<sub>". round(pow($mod, 2), 0) ."</sub></span>";
 /*	 *****************  *******************  *****************  */
-	if ( $nb1 != '0' AND $mod  { !=
-		
-	}
-
+	if ( $nb1  AND $mod != '0') { 
+		echo "ok";
 		$teta1 = $nb1 / $mod;
 		$teta2 = $nb2 / $mod;
-
-		/* Fin déclaration variable */
+	}elseif ($nb1  AND $mod == '0' ) {
+		echo "<div id='Error' class='container'>
+					<div class='alert alert-danger fade in'>
+					    <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
+					    <strong>Attention !</strong> Vous devez au moins remplir un champs
+					    <ul><li>Le champs des réels ET/OU des imaginaires doivent être completés</li></ul>
+					</div>
+	     		 </div>";
+	}
+	/* Fin déclaration variable */
 ?>
 			<div>
 				<hr>
