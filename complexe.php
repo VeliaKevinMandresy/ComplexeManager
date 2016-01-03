@@ -60,10 +60,12 @@
 		}
 		$resInverse = "<span class= 'Inverse'> <sup>1</sup>&frasl;<sub>Z</sub> = <sup>$conjugueNb1</sup>/<sub>". round(pow($mod, 2), 0) ."</sub> $signeConjugue <sup>$newNb2Bis.i</sup>/<sub>". round(pow($mod, 2), 0) ."</sub></span>";
 /*	 *****************  *******************  *****************  */
-	if ( $nb1  AND $mod != '0') { 
+	if ( isset($nb1)  AND (!empty($mod))) { 
 		echo "ok";
 		$teta1 = $nb1 / $mod;
 		$teta2 = $nb2 / $mod;
+		echo "<br> $teta1 <br>";
+		echo "$teta2";
 	}elseif ($nb1  AND $mod == '0' ) {
 		echo "<div id='Error' class='container'>
 					<div class='alert alert-danger fade in'>
