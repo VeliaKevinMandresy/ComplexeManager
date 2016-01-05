@@ -18,7 +18,7 @@
 			<div class="nb1">
 				<label style="color: white">
 					<br>
-					<input class="style_radius" type="number" step="0.0000000001" name="nb1">
+					<input class="style_radius" type="text" step="0.0000000000001" name="nb1">
 				</label>
 			</div>
 			
@@ -32,7 +32,7 @@
 			<div class="nb2">
 				<label style="color: white">
 					<br>
-					<input class="style_radius" type="number" step="0.0000000001" name="nb2" >
+					<input class="style_radius" type="text" step="0.0000000000001" name="nb2" >
 				</label>
 			</div>			
 			<br><br>

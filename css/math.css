@@ -1,6 +1,7 @@
 body{
 	
 	background-image: url("../img/background.jpg");
+	background-size: cover;
 }
 
 h1{
@@ -46,8 +47,8 @@ h1{
 	background-color: rgba(0,128,0,0.6);
 	border-radius: 23px;
 	text-align: justify;
-	width: 50%;
-    margin-left: 25%;
+	width: 70%;
+    margin-left: 17%;
 }
 .souligne{
     text-decoration: underline;
