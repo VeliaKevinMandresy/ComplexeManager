@@ -1,4 +1,4 @@
-<?php
+<<?php
 		/* Déclaration variable */
 		$nb1 = $_POST['nb1'];
 		$nb2 = $_POST['nb2'] . '.i';

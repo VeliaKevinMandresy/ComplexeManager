@@ -28,15 +28,15 @@ if ((isset($_POST['nb1']) AND isset($_POST['nb2']) AND isset($_POST['signe']))) 
 			echo "<div class = 'info' id = 'info'>";
 					echo "<h3><center style = 'color: black'>Recapitulatif<br></center></h3>";
 						echo "<div id = position>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> partie réelle : <span style='color:  rgb(255, 157, 0)lang='latex'>\\Re $nb1</span> </p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> partie imaginaire : <span style='color:  rgb(255, 157, 0)lang='latex'>\\Im $nb2Bis</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Coordonnées du point M : <span style='color:  rgb(255, 157, 0)lang='latex'>M = ($nb1; $nb2Bis)</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Conjugué : <span style='color:  rgb(255, 157, 0)lang='latex'>\\bar{Z} = $conjugue</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Module : <span style='color:  rgb(255, 157, 0)lang='latex'>\\sqrt$abs = $mod</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Inverse : <span style='color:  rgb(255, 157, 0)lang='latex'>$resInverse</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Argument : <span style='color:  rgb(255, 157, 0)lang='latex'>\\theta = $resTeta</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Forme trigonométrique : <span style='color:  rgb(255, 157, 0)lang='latex'> Z = \\sqrt$abs( \\cos( $resTeta ) + \\sin( $resTeta ).i )</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Forme exponentielle : <span style='color:  rgb(255, 157, 0)lang='latex'> Z = \\sqrt$abs.e^{i.$resTeta}</span></span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> partie réelle : <span style='color:  rgb(255, 157, 0)'lang='latex'>\\Re ($nb1)</span> </p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> partie imaginaire : <span style='color:  rgb(255, 157, 0)'lang='latex'>\\Im ($nb2Bis)</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Coordonnées du point M : <span style='color:  rgb(255, 157, 0)'lang='latex'> M =  $coordonnes</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Conjugué : <span style='color:  rgb(255, 157, 0)'lang='latex'>\\bar{Z} = $conjugue</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Module : <span style='color:  rgb(255, 157, 0)'lang='latex'>\\sqrt$abs = $mod</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Inverse : <span style='color:  rgb(255, 157, 0)'lang='latex'>$resInverse</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Argument : <span style='color:  rgb(255, 157, 0)'lang='latex'>\\theta = $resTeta</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Forme trigonométrique : <span style='color:  rgb(255, 157, 0)'lang='latex'> Z = \\sqrt$abs( \\cos( $resTeta ) + \\sin( $resTeta ).i )</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Forme exponentielle : <span style='color:  rgb(255, 157, 0)'lang='latex'> Z = \\sqrt$abs.e^{i.$resTeta}</span></span></p>
 						 </div>
 				</div><br>";
 		}elseif ((!empty($_POST['nb1']) AND empty($_POST['nb2']))) {
@@ -44,15 +44,15 @@ if ((isset($_POST['nb1']) AND isset($_POST['nb2']) AND isset($_POST['signe']))) 
 			echo "<div class = 'info' id = 'info'>";
 					echo "<h3><center style = 'color: black'>Recapitulatif<br></center></h3><br><br>";
 						echo "<div id = position>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> partie réelle : <span style='color:  rgb(255, 157, 0)lang='latex'>\\Re $nb1</span> </p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> partie imaginaire : <span style='color:  rgb(255, 157, 0)lang='latex'>\\Im $nb2Bis</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Coordonnées du point M : <span style='color:  rgb(255, 157, 0)lang='latex'>M = ($nb1; $nb2Bis)</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Conjugué : <span style='color:  rgb(255, 157, 0)lang='latex'>\\bar{Z} = $conjugue</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Module : <span style='color:  rgb(255, 157, 0)lang='latex'>\\sqrt$abs = $mod</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Inverse : <span style='color:  rgb(255, 157, 0)lang='latex'>$resInverse</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Argument : <span style='color:  rgb(255, 157, 0)lang='latex'>\\theta = $resTeta</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Forme trigonométrique : <span style='color:  rgb(255, 157, 0)lang='latex'> Z = \\sqrt$abs( \\cos( $resTeta ) + \\sin( $resTeta ).i )</span></p>
-						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Forme exponentielle : <span style='color:  rgb(255, 157, 0)lang='latex'> Z = \\sqrt$abs.e^{i.$resTeta}</span></span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> partie réelle : <span style='color:  rgb(255, 157, 0)'lang='latex'>\\Re ($nb1)</span> </p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> partie imaginaire : <span style='color:  rgb(255, 157, 0)'lang='latex'>\\Im ($nb2Bis)</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Coordonnées du point M : <span style='color:  rgb(255, 157, 0)'lang='latex'>M = ($nb1; $nb2Bis)</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Conjugué : <span style='color:  rgb(255, 157, 0)'lang='latex'>\\bar{Z} = $conjugue</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Module : <span style='color:  rgb(255, 157, 0)'lang='latex'>\\sqrt$abs = $mod</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Inverse : <span style='color:  rgb(255, 157, 0)'lang='latex'>$resInverse</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Argument : <span style='color:  rgb(255, 157, 0)'lang='latex'>\\theta = $resTeta</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Forme trigonométrique : <span style='color:  rgb(255, 157, 0)'lang='latex'> Z = \\sqrt$abs( \\cos( $resTeta ) + \\sin( $resTeta ).i )</span></p>
+						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> Forme exponentielle : <span style='color:  rgb(255, 157, 0)'lang='latex'> Z = \\sqrt$abs.e^{i.$resTeta}</span></span></p>
 						 </div>
 				</div><br>";
 		}elseif ((empty($_POST['nb1']) AND empty($_POST['nb2']))) {

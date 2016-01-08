@@ -10,7 +10,7 @@
 		echo "<center style = 'color: white'>
 					</p> <div id='Well' class='well well-sm'>Argument :</div> 
 					<span class='result' style='padding: 10px'lang='latex'>
-						\\theta = \\sqrt$abs = $mod
+						\theta = $resTeta
 					</span>
 				  </center><br>";
 	}elseif (isset($nb1) AND (empty($mod)) OR $mod == "0") {
