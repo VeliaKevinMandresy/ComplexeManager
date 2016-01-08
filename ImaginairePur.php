@@ -1,6 +1,9 @@
 <?php 
- 		$conjugueNb1 = 0;
+ 				$conjugueNb1 = 0;
 				$nb1 = "<i style='color: rgb(255, 157, 0)'>Pas de partie reelle</i>";
+				if ($_POST['nb2'] == "1") {
+					$nb2 = "i";
+				}
 				echo "<center style = 'color: white'> 
 						<div id='Well' class='well well-sm'>Forme algebrique : </div><span class='result' lang='latex'>Z = $nb2 (Imaginaire pur) </span><br>
 						<br><div id='Well' class='well well-sm'>Peut aussi s'ecrire : </div><span class='result' lang='latex'>Img($nb2)</span>
