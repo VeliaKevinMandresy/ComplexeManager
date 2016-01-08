@@ -43,7 +43,7 @@
 					<div class='alert alert-info fade in'>
 					    <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
 					    <strong>Info !</strong> L'utilisation d'internet est obligatoire.
-					    <ul><li> Pour le bon fonctionnement/affichage des resultats (<img src='http://latex.codecogs.com/gif.latex?\\LaTeX,'/> utiliser internet. Cordialement.</li></ul>
+					    <ul><li> Pour le bon fonctionnement/affichage des resultats (<img src='http://latex.codecogs.com/gif.latex?\\LaTeX'/>), utiliser internet. Cordialement.</li></ul>
 					</div>
 	     		 </div>";
 		 ?>	

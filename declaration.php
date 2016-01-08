@@ -55,4 +55,4 @@
 			$conjugueNb2 = $nb2Bis;
 			$conjugue = $signeConjugue . $nb2;
 		}
-		$resInverse = "<span class= 'Inverse'> <sup>1</sup>&frasl;<sub>Z</sub> = <sup>$conjugueNb1</sup>/<sub>". round(pow($mod, 2), 0) ."</sub> $signeConjugue <sup>$newNb2Bis.i</sup>/<sub>". round(pow($mod, 2), 0) ."</sub></span>";
+		$resInverse = "<img src='http://latex.codecogs.com/gif.latex? \\frac{($conjugueNb1)}{(". round(pow($mod, 2), 0) .")} $signeConjugue \\frac{($newNb2Bis)}{(". round(pow($mod, 2), 0) .")}.i'/>";
