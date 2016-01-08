@@ -42,7 +42,7 @@ if ((isset($_POST['nb1']) AND isset($_POST['nb2']) AND isset($_POST['signe']))) 
 		}elseif ((!empty($_POST['nb1']) AND empty($_POST['nb2']))) {
 			include'PartieReel.php';
 			echo "<div class = 'info' id = 'info'>";
-					echo "<h3><center style = 'color: black'>Recapitulatif<br></center></h3>";
+					echo "<h3><center style = 'color: black'>Recapitulatif<br></center></h3><br><br>";
 						echo "<div id = position>
 						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> partie réelle : <span style='color:  rgb(255, 157, 0)'>\\Re $nb1</span> </p>
 						 	<p style = 'color: black'> -> <span class = 'position' style = 'color: rgb(255, 255, 247)'>  </span> partie imaginaire : <span style='color:  rgb(255, 157, 0)'>\\Im $nb2Bis</span></p>
@@ -67,6 +67,7 @@ if ((isset($_POST['nb1']) AND isset($_POST['nb2']) AND isset($_POST['signe']))) 
 
 }
 echo "<div class = 'info' id = 'info'>";
+echo "<h3><center style = 'color: black'>Graphique<br></center></h3><br><br>";
 echo "<div id = position2>";
 		echo "<canvas id='myCanvas' width='600' height='300'></canvas>";
 		echo "<script>
