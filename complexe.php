@@ -24,7 +24,7 @@ if ((isset($_POST['nb1']) AND isset($_POST['nb2']) AND isset($_POST['signe']))) 
 				 </div><br>";
 			
 		}elseif ((empty($_POST['nb1']) AND !empty($_POST['nb2']))) {
-			include'AutreFichier/ImaginairePur.php';
+			include'ImaginairePur.php';
 			echo "<div class = 'info' id = 'info'>";
 					echo "<h3><center style = 'color: black'>Recapitulatif<br></center></h3>";
 						echo "<div id = position>
